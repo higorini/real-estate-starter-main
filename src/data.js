@@ -57,8 +57,8 @@ import Agent12 from "./assets/img/agents/agent12.png";
 export const housesData = [
   {
     id: 1,
-    type: "House",
-    name: "House 1",
+    type: "Casa",
+    name: "Casa 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House1,
@@ -67,7 +67,7 @@ export const housesData = [
     address: "Rua Paracatu, Parque Imperial, São Paulo - SP",
     bedrooms: "6",
     bathrooms: "3",
-    surface: "4200 sq ft",
+    surface: "390m²",
     year: "2016",
     price: "110000",
     agent: {
@@ -78,8 +78,8 @@ export const housesData = [
   },
   {
     id: 2,
-    type: "House",
-    name: "House 2",
+    type: "Casa",
+    name: "Casa 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House2,
@@ -88,7 +88,7 @@ export const housesData = [
     address: "Rua dos Carijós, Centro, Belo Horizonte - MG",
     bedrooms: "6",
     bathrooms: "3",
-    surface: "4200 sq ft",
+    surface: "390m²",
     year: "2016",
     price: "140000",
     agent: {
@@ -99,8 +99,8 @@ export const housesData = [
   },
   {
     id: 3,
-    type: "House",
-    name: "House 3",
+    type: "Casa",
+    name: "Casa 3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House3,
@@ -109,7 +109,7 @@ export const housesData = [
     address: "Rua das Fiandeiras, Vila Olímpia, São Paulo - SP",
     bedrooms: "6",
     bathrooms: "3",
-    surface: "4200 sq ft",
+    surface: "390m²",
     year: "2016",
     price: "170000",
     agent: {
@@ -120,17 +120,17 @@ export const housesData = [
   },
   {
     id: 4,
-    type: "House",
-    name: "House 4",
+    type: "Casa",
+    name: "Casa 4",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House4,
     imageLg: House4Lg,
     country: "Belo Horizonte",
-    address: "Avenida Afonso Pena, Boa Viagem, Belo Horizonte - MG",
+    address: "Av. Afonso, Boa Viagem, Belo Horizonte - MG",
     bedrooms: "6",
     bathrooms: "3",
-    surface: "4200 sq ft",
+    surface: "390m²",
     year: "2016",
     price: "200000",
     agent: {
@@ -141,8 +141,8 @@ export const housesData = [
   },
   {
     id: 5,
-    type: "House",
-    name: "House 5",
+    type: "Casa",
+    name: "Casa 5",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House5,
@@ -151,7 +151,7 @@ export const housesData = [
     address: "Rua Pereira Estéfano, Vila da Saúde, São Paulo - SP",
     bedrooms: "5",
     bathrooms: "3",
-    surface: "4200 sq ft",
+    surface: "390m²",
     year: "2015",
     price: "210000",
     agent: {
@@ -162,8 +162,8 @@ export const housesData = [
   },
   {
     id: 6,
-    type: "House",
-    name: "House 6",
+    type: "Casa",
+    name: "Casa 6",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House6,
@@ -172,7 +172,7 @@ export const housesData = [
     address: "Rua dos Carijós, Centro, Belo Horizonte - MG",
     bedrooms: "6",
     bathrooms: "3",
-    surface: "6200 sq ft",
+    surface: "575m²",
     year: "2014",
     price: "220000",
     agent: {
@@ -183,17 +183,17 @@ export const housesData = [
   },
   {
     id: 7,
-    type: "Apartament",
-    name: "Apartament 1",
+    type: "Apartamento",
+    name: "Apartamento 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: Apartment1,
     imageLg: Apartment1Lg,
     country: "Belo Horizonte",
-    address: "Avenida Afonso Pena, Boa Viagem, Belo Horizonte - MG",
+    address: "Av. Afonso, Boa Viagem, Belo Horizonte - MG",
     bedrooms: "2",
     bathrooms: "1",
-    surface: "1200 sq ft",
+    surface: "112m²",
     year: "2012",
     price: "20000",
     agent: {
@@ -204,8 +204,8 @@ export const housesData = [
   },
   {
     id: 8,
-    type: "Apartament",
-    name: "Apartament 2",
+    type: "Apartamento",
+    name: "Apartamento 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: Apartment2,
@@ -214,7 +214,7 @@ export const housesData = [
     address: "Rua Paracatu, Parque Imperial, São Paulo - SP",
     bedrooms: "3",
     bathrooms: "1",
-    surface: "1000 sq ft",
+    surface: "92m²",
     year: "2011",
     price: "30000",
     agent: {
@@ -225,8 +225,8 @@ export const housesData = [
   },
   {
     id: 9,
-    type: "Apartament",
-    name: "Apartament 3",
+    type: "Apartamento",
+    name: "Apartamento 3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: Apartment3,
@@ -235,7 +235,7 @@ export const housesData = [
     address: "Praça da República, República, São Paulo - SP",
     bedrooms: "2",
     bathrooms: "1",
-    surface: "1100 sq ft",
+    surface: "102m²",
     year: "2011",
     price: "40000",
     agent: {
@@ -246,17 +246,17 @@ export const housesData = [
   },
   {
     id: 10,
-    type: "House",
-    name: "House 7",
+    type: "Casa",
+    name: "Casa 7",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House7,
     imageLg: House7Lg,
     country: "Belo Horizonte",
-    address: "Avenida Afonso Pena, Boa Viagem, Belo Horizonte - MG",
+    address: "Av. Afonso, Boa Viagem, Belo Horizonte - MG",
     bedrooms: "5",
     bathrooms: "3",
-    surface: "3200 sq ft",
+    surface: "300m²",
     year: "2015",
     price: "117000",
     agent: {
@@ -267,8 +267,8 @@ export const housesData = [
   },
   {
     id: 11,
-    type: "House",
-    name: "House 8",
+    type: "Casa",
+    name: "Casa 8",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House8,
@@ -277,7 +277,7 @@ export const housesData = [
     address: "Rua dos Carijós, Centro, Belo Horizonte - MG",
     bedrooms: "7",
     bathrooms: "2",
-    surface: "2200 sq ft",
+    surface: "204m²",
     year: "2019",
     price: "145000",
     agent: {
@@ -288,17 +288,17 @@ export const housesData = [
   },
   {
     id: 12,
-    type: "House",
-    name: "House 9",
+    type: "Casa",
+    name: "Casa 9",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House9,
     imageLg: House9Lg,
     country: "São Paulo",
-    address: "Rua Serra de Bragança, Vila Gomes Cardim, São Paulo - SP",
+    address: "Rua Bragança, Vila Gomes Cardim, São Paulo - SP",
     bedrooms: "4",
     bathrooms: "4",
-    surface: "4600 sq ft",
+    surface: "430m²",
     year: "2015",
     price: "139000",
     agent: {
@@ -309,8 +309,8 @@ export const housesData = [
   },
   {
     id: 13,
-    type: "House",
-    name: "House 10",
+    type: "Casa",
+    name: "Casa 10",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House10,
@@ -319,7 +319,7 @@ export const housesData = [
     address: "Rua dos Carijós, Centro, Belo Horizonte - MG",
     bedrooms: "5",
     bathrooms: "2",
-    surface: "5200 sq ft",
+    surface: "484m²",
     year: "2014",
     price: "180000",
     agent: {
@@ -330,8 +330,8 @@ export const housesData = [
   },
   {
     id: 14,
-    type: "House",
-    name: "House 11",
+    type: "Casa",
+    name: "Casa 11",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House11,
@@ -340,7 +340,7 @@ export const housesData = [
     address: "Rua Pereira Estéfano, Vila da Saúde, São Paulo - SP",
     bedrooms: "5",
     bathrooms: "2",
-    surface: "3200 sq ft",
+    surface: "300m²",
     year: "2011",
     price: "213000",
     agent: {
@@ -351,8 +351,8 @@ export const housesData = [
   },
   {
     id: 15,
-    type: "House",
-    name: "House 12",
+    type: "Casa",
+    name: "Casa 12",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House12,
@@ -361,7 +361,7 @@ export const housesData = [
     address: "Rua dos Carijós, Centro, Belo Horizonte - MG",
     bedrooms: "4",
     bathrooms: "3",
-    surface: "5200 sq ft",
+    surface: "484m²",
     year: "2013",
     price: "221000",
     agent: {
@@ -372,8 +372,8 @@ export const housesData = [
   },
   {
     id: 16,
-    type: "Apartament",
-    name: "Apartament 16",
+    type: "Apartamento",
+    name: "Apartamento 16",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: Apartment4,
@@ -382,7 +382,7 @@ export const housesData = [
     address: "Rua dos Carijós, Centro, Belo Horizonte - MG",
     bedrooms: "2",
     bathrooms: "1",
-    surface: "1300 sq ft",
+    surface: "120m²",
     year: "2011",
     price: "21000",
     agent: {
@@ -393,17 +393,17 @@ export const housesData = [
   },
   {
     id: 17,
-    type: "Apartament",
-    name: "Apartament 17",
+    type: "Apartamento",
+    name: "Apartamento 17",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: Apartment5,
     imageLg: Apartment5Lg,
     country: "São Paulo",
-    address: "Rua Serra de Bragança, Vila Gomes Cardim, São Paulo - SP",
+    address: "Rua Bragança, Vila Gomes Cardim, São Paulo - SP",
     bedrooms: "3",
     bathrooms: "1",
-    surface: "1000 sq ft",
+    surface: "92m²",
     year: "2012",
     price: "32000",
     agent: {
@@ -414,8 +414,8 @@ export const housesData = [
   },
   {
     id: 18,
-    type: "Apartament",
-    name: "Apartament 18",
+    type: "Apartamento",
+    name: "Apartamento 18",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: Apartment6,
@@ -424,7 +424,7 @@ export const housesData = [
     address: "Rua dos Carijós, Centro, Belo Horizonte - MG",
     bedrooms: "3",
     bathrooms: "1",
-    surface: "1200 sq ft",
+    surface: "112m²",
     year: "2010",
     price: "38000",
     agent: {
