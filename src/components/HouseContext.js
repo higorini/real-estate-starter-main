@@ -1,7 +1,6 @@
 import React, { useState, useEffect, createContext } from "react";
 
 import { housesData } from "../data";
-import { type } from "@testing-library/user-event/dist/type";
 
 export const HouseContext = createContext();
 
@@ -22,7 +21,7 @@ const HouseContextProvider = ({ children }) => {
     const uniqueCountries = ["Estado (qualquer)", ...new Set(allCountries)];
 
     setCountries(uniqueCountries);
-  }, []);
+  }, [houses]);
 
   useEffect(() => {
     const allProperties = houses.map((house) => {
@@ -32,7 +31,7 @@ const HouseContextProvider = ({ children }) => {
     const uniqueProperty = ["Tipo (qualquer)", ...new Set(allProperties)];
 
     setProperties(uniqueProperty);
-  }, []);
+  }, [houses]);
 
   const handleClick = () => {
     setLoading(true);
@@ -100,6 +99,8 @@ const HouseContextProvider = ({ children }) => {
           housePrice <= maxPrice
         );
       }
+
+      return house;
     });
 
     setTimeout(() => {
@@ -124,7 +125,6 @@ const HouseContextProvider = ({ children }) => {
         houses,
         loading,
         handleClick,
-        loading,
       }}
     >
       {children}
